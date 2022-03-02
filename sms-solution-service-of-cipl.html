@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootsrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <!-- Font Awesome icon cdn link  -->
+ <script src="https://kit.fontawesome.com/0e5f337db0.js" crossorigin="anonymous"></script>
+    <!-- Slick slider css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+</head>
+
+<body>
+    <!-- Header section start -->
+    <div class="header">
+        <div class="header-top d-none d-md-block">
+            <div class="container-xxl">
+                <div class="row justify-content-between p-2">
+                    <div class="col-5 col-lg-4 col-xl-3 py-1">
+                        <div class="row justify-content-start ">
+                            <div class="col-7"><a href="#"><i class="bi bi-geo-alt-fill"></i> 46 Nehru Nagar, Agra</a>
+                            </div>
+                            <!-- <div class="vr"></div> -->
+                            <div class="col-5">
+                                <ul class="d-flex m-0 p-0">
+                                    <li><a href="#" class="mx-2"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-lg-4 col-xl-3 py-1">
+                        <div class="row justify-content-end">
+                            <div class="col-6 text-end"><a href="mailto:contact@cipl.biz" class="text-end"><i
+                                        class="bi bi-envelope-fill"></i> contact@cipl.biz</a></div>
+                            <div class="col-6 text-end"><a href="tel:0562 - 4006276" class="text-end"><i
+                                        class="bi bi-telephone-fill"></i> 0562 - 4006276</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#"><img src="img/cipl-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                                    About us
+                                </a>
+                                <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="profile-information-of-cipl.html">Profile</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="team-of-cipl.html">Management Team</a></li>
+                                    <li><a class="dropdown-item" href="clients-of-cipl.html">Our Clients</a></li>
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#"> Our Strategy</a>
+                                        <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="web-strategy-of-cipl.html">Web
+                                                    Strategy</a></li>
+                                            <li><a class="dropdown-item" href="app-strategy-of-cipl.html">Application
+                                                    Strategy</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                                    Service
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#">IT Service</a>
+                                        <ul class="dropdown-menu " ria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="web-development-service-of-cipl.html">Web
+                                                    Application</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="software-development-service-of-cipl.html">Software
+                                                    Application</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="e-learning-service-of-cipl.html">E-learning</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="sms-solution-service-of-cipl.html">SMS-Solution</a></li>
+                                            <li><a class="dropdown-item" href="hr-concultancy-service-of-cipl.html">HR
+                                                    Concultancy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#">Training</a>
+                                        <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item"
+                                                    href="project-training-service-of-cipl.html">Project Training</a>
+                                            </li>
+                                            <li><a class="dropdown-item"
+                                                    href="corporate-training-service-of-cipl.html">Corporate
+                                                    Training</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="website-portfolio-of-cipl.html">Website</a></li>
+                                    <li><a class="dropdown-item" href="software-portfolio-of-cipl.html">Software</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="openings-of-software-of-cipl.html">Openings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="support-service-of-cipl.html">Support</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="enquiry-about-cipl.html">Enquiry</a>
+                            </li> -->
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact-cipl.html" class="btn btn-outline-success">Contact us</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Header section End -->
+
+
+    <!-- Banner2 section start -->
+    <div class="banner2">
+        <h4>SMS Solution</h4>
+        <p> <a href="#"> home</a> /
+            <a href="#">Service</a> /
+            <a href="#">IT Service</a> /
+            <a href="#">SMS Solution</a>
+        </p>
+        <div class="black-box"></div>
+    </div>
+    <!-- Banner2 section End -->
+    <div class="page-main row justify-content-around py-5 team">
+
+        <div class="page-main-content col-11">
+            <div class="row justify-content-evenly">
+
+                <div class="col-8 col-sm-6 col-md-4  col-lg-3  my-3">
+
+                    <img src="img/bulksms.jpg" class="img-fluid w-100" alt="">
+                
+                </div>
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <p>
+                        <b> Cosmo Infomatics (P) Ltd.</b> Presents a software package for sending customized SMS to a group or
+                        an individual
+        
+                    </p>
+                    <h5>COSMO SMS Solution</h5>
+                    <hr>
+                    <p>The new generation Business Messaging System, is the ultimate in SMS revolution that sends out
+                        individualized, Bulk text/Flash messages directly from your PC to the recipient without any mobile
+                        phone. </p>
+                </div>
+                </div>
+      
+            <div class="row">
+                <h4 class="bg-info py-2 text-center">This Application is Ideal for</h4>
+                <div class="col-12 col-md-6">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                        
+                            <tbody>
+                                <tr>
+                                    <td>Educational/Training Institutions </td>
+
+                                </tr>
+                                <tr>
+                                    <td>All kinds of Distributors </td>
+
+                                </tr>
+                                <tr>
+                                    <td>All manufacturing companies </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Automobile Showrooms/Service Centers </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Blood Banks </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Book Stores </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Courier Companies </td>
+
+                                </tr>
+                                <tr>
+                                    <td>HR Consulting agencies </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Malls/Super Markets </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Mobile Phone Show Rooms/Service </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Real Estate Companies </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                        
+                            <tbody>
+                                <tr>
+                                    <td>Retail SMS business People
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tours & Travels
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Recruitment Agencies
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Call Centre Vehicle Management Team
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Corporate Managers
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Diagnostic Centers/Hospitals
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hotels/Clubs/Restaurants/Resorts
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Insurance Sector
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Marriage Bureau
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Transport Companies
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Movie Bookings
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center pt-4">
+                <div class="col-11 col-sm-8 col-md-6 col-lg-5"><img src="img/sms2.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <h4 class="bg-info text-center py-2 mt-4">Use of SMS Solution in Educational Institutions</h4>
+                <div class="col-12 col-md-6">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary "> Communication needs at Institutions:
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>Contact specified & futuristic target
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Answer the different query
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Communication problems for informing Students, Staff & Parents on emergency
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Handing Routine Queries
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Examination Dates/Centers
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Admission/Interview dates
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Annual Holidays
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Extra curricular activities
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fees Payment Reminders
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Use SMS to
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>Connect Maximum possible futuristic student
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Inform the parents about any unscheduled holiday that has to be declared due to
+                                        unforeseen circumstances
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Heavy Rainfall
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fog</td>
+                                </tr>
+                                <tr>
+                                    <td>Bandh - Due to Political Un-stability
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Reminders to Parent Community
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Acknowledgment of Fees/Addmission Apply
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Urgent Alerts
+
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        An SMS informing the parents about the situation in the institute when there has
+                                        been a natural calamity like Earthquakes etc
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="table-container overflow-auto">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Other alerts:
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>Parent Teacher Meeting
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Annual Day
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Health Camp
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Parent Teacher Association Meeting
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Examination Dates / Centers
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Fees Payment Reminders
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Remarks by teachers on Academic / Behavioral performance of students
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Availability of student's exam mark-sheet
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Student's Attendance
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Online Admissions
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Intimate parents for the time & date of the interviews or the results of the
+                                        interviews.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>This way the crowds of aspiring candidates can be reduced and the school
+                                        administration is rid of answering hundreds of queries.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="table-container ">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Software Features
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td> Bulk SMS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Can integrate with any Database</td>
+                                </tr>
+                                <tr>
+                                    <td>Customizable Multiple Greetings and Signatures</td>
+                                </tr>
+                                <tr>
+                                    <td>Normal SMS</td>
+                                </tr>
+                                <tr>
+                                    <td>Log File/Sent Items</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="table-container ">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Hardware Features
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>Pentium Processor</td>
+                                </tr>
+                                <tr>
+                                    <td>Memory/RAM at least 512 MB</td>
+                                </tr>
+                                <tr>
+                                    <td>Hard Disk at least 1 GB</td>
+                                </tr>
+                                <tr>
+                                    <td>Any GSM SIM card</td>
+                                </tr>
+                                <tr>
+                                    <td>Internet Connection</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <div class="table-container">
+                        <table class="table  table-hover">
+                            <caption class="caption-top p-2 fs-5 text-black bg-secondary"> Advantages
+                            </caption>
+                            <tbody>
+                                <tr>
+                                    <td>Reach Target Customers
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cost effective communication (each SMS cost is as per service providers)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Most effective communication compared to Phone calls, e-mails and Fax.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Personalized SMS, hence more mileage
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Time Saving Communication
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Personalized SMS
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer Section Start  -->
+
+    <footer>
+        <div class="content ">
+            <div class="top">
+                <div class="logo-details">
+                    <img src="img/cipl-logo.png" alt="">
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="row link-boxes">
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">Contact Us</li>
+                    <li><a
+                            href="https://www.google.com/maps/place/46,+Nehru+Nagar,+Civil+Lines,+Agra,+Uttar+Pradesh+282003/@27.210677,78.0108061,15z/data=!4m5!3m4!1s0x3974774ffb4c6c75:0x36a79ede848b9042!8m2!3d27.207882!4d78.0088134">46
+                            Nehru Nagar, Agra</a></li>
+                    <li><a href="tel:0562 - 4006276">0562 - 4006276</a></li>
+                    <li><a href="mailto:contact@cipl.biz">contact@cipl.biz</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">IT Service</li>
+                    <li><a href="#">Web Application</a></li>
+                    <li><a href="#">Software Application</a></li>
+                    <li><a href="#">E-learning</a></li>
+                    <li><a href="#">SMS-Solution</a></li>
+                    <li><a href="#">HR Concultancy</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">About us</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Management Team</a></li>
+                    <li><a href="#">Our Clients</a></li>
+                    <li><a href="#">Web Strategy</a></li>
+                    <li><a href="#">Application Strategy</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">Others</li>
+                    <li><a href="#">Project Training</a></li>
+                    <li><a href="#">Corporate Training</a></li>
+                    <li><a href="#">Openings</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Enquiry</a></li>
+
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="https//:cipl.biz">Cosmo Informatics Pvt.
+                        Ltd.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+
+
+
+
+
+
+    <!-- all Js links hera   -->
+
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.js"></script>
+    <!-- jquery js  -->
+    <script src="js/jquery.js"></script>
+    <!-- jquery Ui js  -->
+    <script src="js/jquery-ui.js"></script>
+
+    <!-- Slick slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Main Js  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

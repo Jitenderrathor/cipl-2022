@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootsrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <!-- Font Awesome icon cdn link  -->
+ <script src="https://kit.fontawesome.com/0e5f337db0.js" crossorigin="anonymous"></script>
+    <!-- Slick slider css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+</head>
+
+<body>
+    <!-- Header section start -->
+    <div class="header">
+        <div class="header-top d-none d-md-block">
+            <div class="container-xxl">
+                <div class="row justify-content-between p-2">
+                    <div class="col-5 col-lg-4 col-xl-3 py-1">
+                        <div class="row justify-content-start ">
+                            <div class="col-7"><a href="#"><i class="bi bi-geo-alt-fill"></i> 46 Nehru Nagar, Agra</a>
+                            </div>
+                            <!-- <div class="vr"></div> -->
+                            <div class="col-5">
+                                <ul class="d-flex m-0 p-0">
+                                    <li><a href="#" class="mx-2"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-linkedin"></i></a></li>
+                                    <li><a href="#" class="mx-2"><i class="bi bi-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-lg-4 col-xl-3 py-1">
+                        <div class="row justify-content-end">
+                            <div class="col-6 text-end"><a href="mailto:contact@cipl.biz" class="text-end"><i
+                                        class="bi bi-envelope-fill"></i> contact@cipl.biz</a></div>
+                            <div class="col-6 text-end"><a href="tel:0562 - 4006276" class="text-end"><i
+                                        class="bi bi-telephone-fill"></i> 0562 - 4006276</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#"><img src="img/cipl-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                                    About us
+                                </a>
+                                <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="profile-information-of-cipl.html">Profile</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="team-of-cipl.html">Management Team</a></li>
+                                    <li><a class="dropdown-item" href="clients-of-cipl.html">Our Clients</a></li>
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#"> Our Strategy</a>
+                                        <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="web-strategy-of-cipl.html">Web
+                                                    Strategy</a></li>
+                                            <li><a class="dropdown-item" href="app-strategy-of-cipl.html">Application
+                                                    Strategy</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                                    Service
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#">IT Service</a>
+                                        <ul class="dropdown-menu " ria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item" href="web-development-service-of-cipl.html">Web
+                                                    Application</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="software-development-service-of-cipl.html">Software
+                                                    Application</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="e-learning-service-of-cipl.html">E-learning</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="sms-solution-service-of-cipl.html">SMS-Solution</a></li>
+                                            <li><a class="dropdown-item" href="hr-concultancy-service-of-cipl.html">HR
+                                                    Concultancy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropstart"><a class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown" href="#">Training</a>
+                                        <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                                            <li><a class="dropdown-item"
+                                                    href="project-training-service-of-cipl.html">Project Training</a>
+                                            </li>
+                                            <li><a class="dropdown-item"
+                                                    href="corporate-training-service-of-cipl.html">Corporate
+                                                    Training</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="website-portfolio-of-cipl.html">Website</a></li>
+                                    <li><a class="dropdown-item" href="software-portfolio-of-cipl.html">Software</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="openings-of-software-of-cipl.html">Openings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="support-service-of-cipl.html">Support</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="enquiry-about-cipl.html">Enquiry</a>
+                            </li> -->
+                        </ul>
+                        <form class="d-flex">
+                            <a href="contact-cipl.html" class="btn btn-outline-success">Contact us</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Header section End -->
+
+
+
+
+    <!-- Banner2 section start -->
+    <div class="banner2">
+        <h4>Software Development</h4>
+        <p> <a href="#"> home</a> /
+            <a href="#">Service</a> /
+            <a href="#">IT Service</a> /
+            <a href="#">Software Development</a>
+        </p>
+        <div class="black-box"></div>
+    </div>
+    <!-- Banner2 section End -->
+    <div class="page-main row justify-content-around py-5 software">
+
+        <div class="page-main-content col-11">
+            <h5>Software Development and Maintenance</h5>
+            <hr>
+            <div class="row justify-content-evenly">
+                <div class="col-10 col-sm-6 col-md-4  col-sm-4 pe-sm-5 my-3">
+                    <img src="img/softwaredevelopment.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-12 col-sm-10 col-lg-8 my-2">
+
+                    <p>At CIPL, we believe in developing a software fitting to the requirements of our client as
+                        different clients may have different requirements. We are committed to offer complete
+                        satisfaction and value for money to our clients but also helping our clients in better and
+                        efficient use of software solutions. We believe in collecting valuable feed back of our clients.
+                        It helps us in analyzing our services and guides for a continuous improvement to achieve the
+                        highest standard of quality.</p>
+                    <p>
+                        We provide both end-to-end offshore software development solutions - from requirements gathering
+                        to application design and development to application maintenance - and specific design and
+                        development expertise. We're experts in various software platforms such as Visual Studio (.NET),
+                        Visual Age (Java Development tool), etc. Our teams employ industry standard tools, such as
+                        Rational Rose and Designer 2000, and techniques during the software development lifecycle.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h5>We Know Your Industry</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/shoe.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Shoe And <span> Leather</span>
+                            </h4>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/handcraft.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Handicraft <span> Export</span>	</h4>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/small.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Small Scale <span> Industries</span>
+                            </h4>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/Health.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Health</h4>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/education.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Education</h4>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                            <img src="img/publication.png"  class="img-fluid mx-auto" alt="">
+                            <h4 class="fs-6   p-2 mt-2 rounded-3">Publication	</h4>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer Section Start  -->
+
+    <footer>
+        <div class="content ">
+            <div class="top">
+                <div class="logo-details">
+                    <img src="img/cipl-logo.png" alt="">
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="row link-boxes">
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">Contact Us</li>
+                    <li><a
+                            href="https://www.google.com/maps/place/46,+Nehru+Nagar,+Civil+Lines,+Agra,+Uttar+Pradesh+282003/@27.210677,78.0108061,15z/data=!4m5!3m4!1s0x3974774ffb4c6c75:0x36a79ede848b9042!8m2!3d27.207882!4d78.0088134">46
+                            Nehru Nagar, Agra</a></li>
+                    <li><a href="tel:0562 - 4006276">0562 - 4006276</a></li>
+                    <li><a href="mailto:contact@cipl.biz">contact@cipl.biz</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">IT Service</li>
+                    <li><a href="#">Web Application</a></li>
+                    <li><a href="#">Software Application</a></li>
+                    <li><a href="#">E-learning</a></li>
+                    <li><a href="#">SMS-Solution</a></li>
+                    <li><a href="#">HR Concultancy</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">About us</li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Management Team</a></li>
+                    <li><a href="#">Our Clients</a></li>
+                    <li><a href="#">Web Strategy</a></li>
+                    <li><a href="#">Application Strategy</a></li>
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box">
+                    <li class="link_name">Others</li>
+                    <li><a href="#">Project Training</a></li>
+                    <li><a href="#">Corporate Training</a></li>
+                    <li><a href="#">Openings</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Enquiry</a></li>
+
+                </ul>
+                <ul class="col-12 col-sm-5 col-md-3 col-lg-2 box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="https//:cipl.biz">Cosmo Informatics Pvt.
+                        Ltd.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+
+
+
+
+
+
+    <!-- all Js links hera   -->
+
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.js"></script>
+    <!-- jquery js  -->
+    <script src="js/jquery.js"></script>
+    <!-- jquery Ui js  -->
+    <script src="js/jquery-ui.js"></script>
+
+    <!-- Slick slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Main Js  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
